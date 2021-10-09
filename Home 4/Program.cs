@@ -20,6 +20,10 @@ namespace Home_4
             {
                 Console.WriteLine("x = " + (-b / (2*a)));
             }
+            else if(a==0)
+            {
+                Console.WriteLine("x= " + (-c) / b);
+            }
             else
             {
                 Console.WriteLine("x1 = " + (-b+Math.Sqrt(d))/(2*a)+"x2 = "+(-b-Math.Sqrt(d))/(2*a));
