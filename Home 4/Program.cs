@@ -98,8 +98,8 @@ namespace Home_4
             numbers[indexOfElem2] = rotate;
             Console.WriteLine("Элементы нового массива:" + numbers[indexOfElem1] + " " + numbers[indexOfElem2]);
 
-            Console.WriteLine("class 3");         
-            Console.WriteLine("Введите кол-во элементов, затем введите значения этих элементов");
+            Console.WriteLine("class 3");
+            Console.WriteLine("Вы ввели количество элементов, теперь введите значения этих элементов");
             int countOfElem = 0;
             try
             {
@@ -125,7 +125,7 @@ namespace Home_4
             double product = 1;
             double average;
             countOfElem = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите количество элементов в массиве, затем введите их значения");
+            Console.WriteLine("Вы ввели количество элементов, теперь введите значения этих элементов");
             numbers = new double[countOfElem];
             for (int i = 0; i < numbers.Length; i++)
             {
