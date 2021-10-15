@@ -22,7 +22,7 @@ namespace Home_4
             }
             else if(a==0)
             {
-                Console.WriteLine("x= " + (-c) / b);
+                Console.WriteLine("x= "+(-c)/b);
             }
             else
             {
